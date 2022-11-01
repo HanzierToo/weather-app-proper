@@ -1,9 +1,11 @@
 import axios from "axios";
+import fetchApiKey from "./useApiKey";
 import {useCallback, useState} from "react";
 
 const fetchWeatherData = (urlRaw)=>{
     return new Promise((resolve, reject)=>{
-        const apiKey  = "c0e86372cfe2bee8e9ffca2b0aa5910a"
+        const apiKey = fetchApiKey;
+        console.log(apiKey);
         const url = urlRaw.concat(`&appid=${apiKey}&units=metric`)
         axios.get(url).then(r=>{
             console.log(r.status)

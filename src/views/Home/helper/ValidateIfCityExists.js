@@ -1,8 +1,9 @@
 import axios from "axios";
+import fetchApiKey from "../../../hooks/useApiKey";
 
 export const validateIfCityExist = (city)=>{
     return new Promise((resolve, reject)=>{
-        const apiKey  = "c0e86372cfe2bee8e9ffca2b0aa5910a"
+        const apiKey = fetchApiKey;
         const url = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&q=${city}&units=metric`
         axios.get(url).then(r=>{
             if (r?.status === 200){
