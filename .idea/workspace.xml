@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cae5be2-4a10-435d-9eb3-e46f8a900e1b" name="Changes" comment="" />
+    <list default="true" id="5cae5be2-4a10-435d-9eb3-e46f8a900e1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/context/globalContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useFetchWeather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home/components/CityCardList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home/components/CityCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home/helper/ValidateIfCityExists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/WeatherDetail/WeatherDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GtEuKtK45hZW6klUgRsojhwTnw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,10 +44,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "discord-application",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\Uni Work\SEMESTER 3\Front-end Development\weather-app\src\views\Home" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,11 +80,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667199700985</updated>
-      <workItem from="1667199702140" duration="294000" />
+      <workItem from="1667199702140" duration="1608000" />
+      <workItem from="1667209464156" duration="3784000" />
+      <workItem from="1667223158164" duration="13116000" />
+      <workItem from="1667261601644" duration="7107000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

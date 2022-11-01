@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {GlobalProvider} from "./context/globalContext";
+import Home from "./views/Home/Home";
+import WeatherDetail from "./views/WeatherDetail/WeatherDetail";
 
-function App() {
+const App = ()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <GlobalProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/weather-detail" element={<WeatherDetail />} />
+          </Routes>
+        </BrowserRouter>
+      </GlobalProvider>
   );
 }
 
